@@ -11,8 +11,8 @@ _Web-based calculator._
 ## Setup/Installation Requirements
 
 * _Clone repository_
-* _Open index.html or webpage: https://cescarez.github.io/portfolio_
-* _Enter numbers and functions._
+* _Open calculator.html_
+* _Enter equation to be calculated._
 
 ## Known Bugs
 
