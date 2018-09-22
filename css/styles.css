@@ -1,24 +1,4 @@
-button {
-  width: 100%;
-  padding: 5px;
-  margin: 1px;
-}
 
-button:hover {
-  opacity: 0.8;
-}
-
-.number {
-  background: #99a3a4;
-}
-
-.operator {
-  background: #f39c12;
-}
-
-#clear, #decimal {
-  background: #2471a3;
-}
 
 .title {
   text-align: center;
@@ -48,6 +28,7 @@ button:hover {
   background: #2b3f41;
 }
 
+/*calculator display*/
 #output {
   height: 100px;
   border-style: solid;
@@ -61,4 +42,34 @@ button:hover {
   padding-top: 45px;
   font-size: 18px;
   font-weight: bold;
+  margin-top: 5px;
+}
+
+/*calculator body*/
+#numpad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 3px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.number {
+  background: #99a3a4;
+}
+
+.operator {
+  background: #f39c12;
+}
+
+#clear, #decimal {
+  background: #2471a3;
 }

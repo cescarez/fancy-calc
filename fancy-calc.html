@@ -11,76 +11,78 @@
   <body>
     <div class="container">
       <div class="header">
-        <p class="title">MathWix-t9000X+</p>
+        <p class="title">MathWiz-t9000X+</p>
         <p class="subtitle">a simple web-based calculator</p>
       </div>
       <div id="calc" class="container">
-        <div class="row">
-          <div id="output">
+        <div id="output">
+          <div class="row">
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <button type="button" id="clear">CE</button>
+        <div id="numpad">
+          <div class="row">
+            <div class="col-sm-6">
+              <button type="button" id="clear">CE</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" value="exponent" class="operator">exp</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" value="divide" class="operator">/</button>
+            </div>
           </div>
-          <div class="col-sm-3">
-            <button type="button" value="exponent" class="operator">exp</button>
+          <div class="row">
+            <div class="col-sm-3">
+              <button type="button" id="seven" class="number" value="7">7</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" id="eight" class="number" value="8">8</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" id="nine" class="number" value="9">9</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" value="multiply" class="operator">x</button>
+            </div>
           </div>
-          <div class="col-sm-3">
-            <button type="button" value="divide" class="operator">/</button>
+          <div class="row">
+            <div class="col-sm-3">
+              <button type="button" id="four" class="number" value="4">4</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" id="five" class="number" value="5">5</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" id="six" class="number" value="6">6</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" value="divide" class="operator">-</button>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <button type="button" id="seven" class="number" value="7">7</button>
+          <div class="row">
+            <div class="col-sm-3">
+              <button type="button" id="one" class="number" value="1">1</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" id="two" class="number" value="2">2</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" id="three" class="number" value="3">3</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" value="add" class="operator">+</button>
+            </div>
           </div>
-          <div class="col-sm-3">
-            <button type="button" id="eight" class="number" value="8">8</button>
-          </div>
-          <div class="col-sm-3">
-            <button type="button" id="nine" class="number" value="9">9</button>
-          </div>
-          <div class="col-sm-3">
-            <button type="button" value="multiply" class="operator">x</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <button type="button" id="four" class="number" value="4">4</button>
-          </div>
-          <div class="col-sm-3">
-            <button type="button" id="five" class="number" value="5">5</button>
-          </div>
-          <div class="col-sm-3">
-            <button type="button" id="six" class="number" value="6">6</button>
-          </div>
-          <div class="col-sm-3">
-            <button type="button" value="divide" class="operator">-</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <button type="button" id="one" class="number" value="1">1</button>
-          </div>
-          <div class="col-sm-3">
-            <button type="button" id="two" class="number" value="2">2</button>
-          </div>
-          <div class="col-sm-3">
-            <button type="button" id="three" class="number" value="3">3</button>
-          </div>
-          <div class="col-sm-3">
-            <button type="button" value="add" class="operator">+</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <button type="button" id="zero" class="number" value="0">0</button>
-          </div>
-          <div class="col-sm-3">
-            <button type="button" id="decimal" class="number">.</button>
-          </div>
-          <div class="col-sm-3">
-            <button type="button" value="equals" class="operator">=</button>
+          <div class="row">
+            <div class="col-sm-6">
+              <button type="button" id="zero" class="number" value="0">0</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" id="decimal" class="number">.</button>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" value="equals" class="operator">=</button>
+            </div>
           </div>
         </div>
       </div>
