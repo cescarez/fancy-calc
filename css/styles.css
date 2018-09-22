@@ -1,25 +1,39 @@
 button {
   width: 100%;
   padding: 5px;
+  margin: 1px;
+}
+
+button:hover {
+
+}
+
+.number {
+  background: #99a3a4;
 }
 
 .operator {
-  background:
+  background: #f39c12;
+}
+
+#clear, #decimal {
+  background: #2471a3;
 }
 
 .title {
   text-align: center;
-  font-family: 'Raleway Dots', cursive;
+  font-family: 'Permanent Marker', cursive;
   font-size: 500%
 }
 
 #calc {
-  width: 280px;
+  width: 250px;
   height: auto;
   border-style: solid;
   border-radius: 15px;
   border-width: medium;
-  padding-bottom: 5px;
+  padding-bottom: 6px;
+  background: #2b3f41;
 }
 
 #output {
@@ -30,4 +44,6 @@ button {
   border-width: thin;
   text-align: center;
   vertical-align: middle;
+  background:  #00c71b;
+  font-family: "Orbitron", sans-serif;
 }
