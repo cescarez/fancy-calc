@@ -11,18 +11,27 @@ var divide =  function(number1, number2) {
   return number1 / number2;
 };
 
-
-
-alert(result)
-
 $(document).ready(function() {
-  $("form#add").submit(function(event) {
+  $("form#calc").submit(function(event) {
     event.preventDefault();
-    var number1 = parseInt($("#add1").val());
-    var number2 = parseInt($("#add2").val());
-    var result = add(number1, number2)
+    var number1 = parseInt($("#num1").val());
+    var number2 = parseInt($("#num2").val());
+    var operator = $("operator").val();
 
-    $("#output").text(result);
+    if (operator="add") {
+      var result = add(number1, number2);
+      $("#output").text(result);
+    } else if (operator="subtract") {
+      var result = subtract(number1, number2);
+      $("#output").text(result);
+    } else if (operator="multiply") {
+      var result = multiply(number1, number2);
+      $("#output").text(result);
+    } else if (operator="divide") {
+      var result = divide(number1, number2);
+      $("#output").text(result);
+    } else {
+      $("#output").text("Please enter valid inputs and try again.");
+    }
   });
-});
 });
