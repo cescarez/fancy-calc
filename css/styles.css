@@ -23,7 +23,19 @@ button:hover {
 .title {
   text-align: center;
   font-family: 'Permanent Marker', cursive;
-  font-size: 500%
+  font-size: 500%;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 250%;
+}
+
+.header {
+  line-height: 0.8;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #calc {
