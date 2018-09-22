@@ -46,4 +46,7 @@ button:hover {
   vertical-align: middle;
   background:  #00c71b;
   font-family: "Orbitron", sans-serif;
+  padding-top: 45px;
+  font-size: 18px;
+  font-weight: bold;
 }
