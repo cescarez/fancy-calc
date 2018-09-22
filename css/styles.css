@@ -1,0 +1,33 @@
+button {
+  width: 100%;
+  padding: 5px;
+}
+
+.operator {
+  background:
+}
+
+.title {
+  text-align: center;
+  font-family: 'Raleway Dots', cursive;
+  font-size: 500%
+}
+
+#calc {
+  width: 280px;
+  height: auto;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: medium;
+  padding-bottom: 5px;
+}
+
+#output {
+  height: 100px;
+  border-style: solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: thin;
+  text-align: center;
+  vertical-align: middle;
+}
