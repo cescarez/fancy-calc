@@ -16,22 +16,22 @@ $(document).ready(function() {
     event.preventDefault();
     var number1 = parseInt($("#num1").val());
     var number2 = parseInt($("#num2").val());
-    var operator = $("operator").val();
+    var operator = $("#operator").val();
+    var num1type = typeof number1;
+    var num2type = typeof number2;
 
-    if (operator="add") {
+    if (operator==="add") {
       var result = add(number1, number2);
       $("#output").text(result);
-    } else if (operator="subtract") {
+    } else if (operator==="subtract") {
       var result = subtract(number1, number2);
       $("#output").text(result);
-    } else if (operator="multiply") {
+    } else if (operator==="multiply") {
       var result = multiply(number1, number2);
       $("#output").text(result);
-    } else if (operator="divide") {
+    } else if (operator==="divide") {
       var result = divide(number1, number2);
       $("#output").text(result);
-    } else {
-      $("#output").text("Please enter valid inputs and try again.");
     }
   });
 });

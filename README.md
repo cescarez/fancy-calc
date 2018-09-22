@@ -1,12 +1,12 @@
 # _Calculator_
 
-#### _Epicodus Week 5, August 25, 2018_
+#### _Epicodus Week 5, August 25, 2018_ _last updated Sept. 21, 2018_
 
 #### By _**Christabel Escarez**_
 
 ## Description
 
-_Web-based calculator._
+_A simple web-based calculator._
 
 ## Setup/Installation Requirements
 
