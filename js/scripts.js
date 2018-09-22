@@ -18,7 +18,7 @@ $(document).ready(function() {
     if (".number") {
       var input = parseInt($(this).val());
       $("#output").append(input);
-    } else if (".operator" && !== "#equals"){
+    } else if (".operator" && $(this).val() !== "equals"){
 
     } else if ("#equals"){
 
