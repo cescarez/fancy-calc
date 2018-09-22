@@ -18,7 +18,14 @@ $(document).ready(function() {
     if (".number") {
       var input = parseInt($(this).val());
       $("#output").append(input);
-    }
+    } else if (".operator" && !== "#equals"){
 
+    } else if ("#equals"){
+
+    } else if ("#decimal"){
+
+    }  else if ("#clear"){
+
+    }
   });
 });
