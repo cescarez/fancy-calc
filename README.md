@@ -10,7 +10,7 @@ _A simple web-based calculator._
 
 ## Setup/Installation Requirements
 
-* _Clone repository_
+* _Clone repository (https://github.com/cescarez/calculator.git)._
 * _Open calculator.html_
 * _Enter equation to be calculated._
 
